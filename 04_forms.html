@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+    <form>
+      <label for="email">
+        Email:
+        <input placeholder="Email" type="text" name="email" />
+      </label>
+      <label for="password"
+        >Password:<input placeholder="Password" type="password" name="password"
+      /></label>
+      <button type="submit">Login</button>
+      <button type="reset">Reset</button>
+    </form>
+    <div>
+      <form>
+        <label for="hungry"
+          >Hungry:<input type="checkbox" name="hungry"
+        /></label>
+        <br />
+        <label for="Tea"><input type="radio" name="Tea" />Tea</label>
+        <br />
+        <label for="Coffee"><input type="radio" name="Coffee" />Coffee</label>
+        <br />
+        <label for="food">
+          Break Fast:
+          <select title="Select food" name="food" id="maincourse">
+            <option value="dosa">Dosa</option>
+            <option value="uttapam">uttapam</option>
+            <option value="dhokla">dhokla</option>
+          </select>
+        </label>
+        <br />
+        <label for="instructions">
+          Cooking Instructions:<textarea
+            name="instructions"
+            cols="30"
+            rows="3"
+          ></textarea>
+        </label>
+      </form>
+    </div>
+  </body>
+</html>
